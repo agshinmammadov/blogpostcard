@@ -1,68 +1,80 @@
-
 @font-face {
-    font-family:Figtree ;
-    src:  url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-family: Figtree;
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
 }
-:root{
-    --primary:hsl(47, 88%, 63%);
-    --neutral_white:hsl(0, 0%, 100%);
+
+:root {
+    --primary: hsl(47, 88%, 63%);
+    --neutral_white: hsl(0, 0%, 100%);
     --neutral_grey: hsl(0, 0%, 50%);
-    --neutral_black:hsl(0, 0%, 7%);
+    --neutral_black: hsl(0, 0%, 7%);
 }
 
-body{
-    background-color:var(--primary);
-    font-family:'Figtree';
+body {
+    background-color: var(--primary);
+    font-family: 'Figtree';
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
-.card-container{
-    margin:auto;
+.card-container {
+    margin: auto;
     padding: 20px;
-    width:300px;
+    width: 300px;
     background-color: var(--neutral_white);
     border: 2px solid var(--neutral_black);
     box-shadow: 7px 4px var(--neutral_black);
-    border-radius:20px;
+    border-radius: 20px;
     transition-duration: 0.6s;
-    
+
 }
-.card-container__thumbnail > img{
-    border-radius:10px;
+
+.card-container__thumbnail>img {
+    border-radius: 10px;
 }
-.card-container__category{
+
+.card-container__category {
     background-color: var(--primary);
     font-weight: bold;
-    width:fit-content;
+    width: fit-content;
     padding: 5px;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.card-container__header{
+
+.card-container__header {
     font-size: 20px;
     transition-duration: .6s;
 }
-.card-container__header:hover{
+
+.card-container__header:hover {
     color: var(--primary);
     cursor: pointer;
 }
-.card-container:hover{
-    box-shadow: 14px 8px var(--neutral_black);;
+
+.card-container:hover {
+    box-shadow: 14px 8px var(--neutral_black);
+    ;
 }
-.card-container__description{
-    color:var(--neutral_grey);
-    font-size: small; 
+
+.card-container__description {
+    color: var(--neutral_grey);
+    font-size: small;
     line-height: 1.5;
 }
-.card-container__author{
+
+.card-container__author {
     display: flex;
     align-items: center;
     font-weight: bold;
-    gap:15px;
+    gap: 15px;
 }
-.card-container__author > img{
+
+.card-container__author>img {
     width: 35px;
 }
 
-.attribution{
+.attribution {
     margin-top: 50px;
     bottom: 5px;
     width: fit-content;
