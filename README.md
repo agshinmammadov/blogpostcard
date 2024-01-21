@@ -10,7 +10,7 @@ The challenge was to build a responsive blog preview card component with a provi
 
 Click the link below to watch a quick screen video demonstrating the project:
 
-[![Watch the demo video]]([https://youtu.be/rfohwJ-lTYs](https://youtu.be/eTU6BRAvcpo))
+(<iframe width="560" height="315" src="https://www.youtube.com/embed/eTU6BRAvcpo?si=TpQ_V8UelurEzNu9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
 
 ## Live Website
 
