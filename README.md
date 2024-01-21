@@ -10,7 +10,11 @@ The challenge was to build a responsive blog preview card component with a provi
 
 Click the link below to watch a quick screen video demonstrating the project:
 
-(<iframe width="560" height="315" src="https://www.youtube.com/embed/eTU6BRAvcpo?si=TpQ_V8UelurEzNu9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+Block card preview
+
+https://github.com/agshinmammadov/blogpostcard/assets/107038254/5e947257-bd02-44bd-b0d1-c2560bbb7763
+
+
 
 ## Live Website
 
